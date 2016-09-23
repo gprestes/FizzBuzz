@@ -84,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370C09131D9571D30032A900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377C2FA01D93041A005F15ED /* AppDelegate.swift */,
+				377C2FA71D93041A005F15ED /* Assets.xcassets */,
+				377C2FA91D93041A005F15ED /* LaunchScreen.storyboard */,
+				377C2FAC1D93041A005F15ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		377C2F941D930419005F15ED = {
 			isa = PBXGroup;
 			children = (
@@ -107,12 +118,9 @@
 		377C2F9F1D930419005F15ED /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
-				377C2FA01D93041A005F15ED /* AppDelegate.swift */,
+				370C09131D9571D30032A900 /* Supporting Files */,
 				377C2FA21D93041A005F15ED /* ViewController.swift */,
 				377C2FA41D93041A005F15ED /* Main.storyboard */,
-				377C2FA71D93041A005F15ED /* Assets.xcassets */,
-				377C2FA91D93041A005F15ED /* LaunchScreen.storyboard */,
-				377C2FAC1D93041A005F15ED /* Info.plist */,
 				377C2FD01D931255005F15ED /* Brain.swift */,
 				378A93FF1D9339B4003B25D6 /* Game.swift */,
 				374013441D94A01D00F7C99F /* Move.swift */,
